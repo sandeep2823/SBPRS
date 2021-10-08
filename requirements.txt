@@ -1,71 +1,76 @@
-argon2-cffi @ file:///C:/ci/argon2-cffi_1613037959010/work
-async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
-attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
-certifi==2021.5.30
-cffi @ file:///C:/ci/cffi_1625831749120/work
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-cycler==0.10.0
-debugpy @ file:///C:/ci/debugpy_1629222854708/work
-decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
-defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
-entrypoints==0.3
-importlib-metadata @ file:///C:/ci/importlib-metadata_1631916848487/work
-ipykernel @ file:///C:/ci/ipykernel_1633545574250/work/dist/ipykernel-6.4.1-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1632141541768/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-jedi @ file:///C:/ci/jedi_1611315808330/work
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1624781299557/work
-joblib==1.1.0
-jsonschema @ file:///Users/ktietz/demo/mc3/conda-bld/jsonschema_1630511932244/work
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1630690655192/work
-jupyter-core @ file:///C:/ci/jupyter_core_1633420665940/work
-jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
-kiwisolver==1.3.2
-MarkupSafe @ file:///C:/ci/markupsafe_1621528314575/work
-matplotlib==3.4.3
-matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
-mistune==0.8.4
-nbclient @ file:///tmp/build/80754af9/nbclient_1614364831625/work
-nbconvert @ file:///C:/ci/nbconvert_1624479163777/work
-nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
-nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
-notebook @ file:///C:/ci/notebook_1629205926310/work
-numpy==1.21.2
-packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
-pandas==1.3.3
-pandocfilters @ file:///C:/ci/pandocfilters_1605102497129/work
-parso @ file:///tmp/build/80754af9/parso_1617223946239/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==8.3.2
-plotly==5.3.1
-prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
-pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
-pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz==2021.3
-pywin32==228
-pywinpty==0.5.7
-pyzmq @ file:///C:/ci/pyzmq_1628276144921/work
-scikit-learn==1.0
-scipy==1.7.1
-seaborn==0.11.2
-Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
-six @ file:///tmp/build/80754af9/six_1623709665295/work
-sklearn==0.0
-tenacity==8.0.1
-terminado==0.9.4
-testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
-threadpoolctl==3.0.0
-tornado @ file:///C:/ci/tornado_1606942392901/work
-traitlets @ file:///tmp/build/80754af9/traitlets_1632522747050/work
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-webencodings==0.5.1
-wincertstore==0.2
-wordcloud==1.8.1
-xgboost==1.4.2
-zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
+Package             Version
+------------------- ---------
+argon2-cffi         20.1.0
+async-generator     1.10
+attrs               21.2.0
+backcall            0.2.0
+bleach              4.0.0
+certifi             2021.5.30
+cffi                1.14.6
+colorama            0.4.4
+cycler              0.10.0
+debugpy             1.4.1
+decorator           5.1.0
+defusedxml          0.7.1
+entrypoints         0.3
+importlib-metadata  4.8.1
+ipykernel           6.4.1
+ipython             7.27.0
+ipython-genutils    0.2.0
+jedi                0.18.0
+Jinja2              3.0.1
+joblib              1.1.0
+jsonschema          3.2.0
+jupyter-client      7.0.1
+jupyter-core        4.8.1
+jupyterlab-pygments 0.1.2
+kiwisolver          1.3.2
+MarkupSafe          2.0.1
+matplotlib          3.4.3
+matplotlib-inline   0.1.2
+mistune             0.8.4
+nbclient            0.5.3
+nbconvert           6.1.0
+nbformat            5.1.3
+nest-asyncio        1.5.1
+notebook            6.4.3
+numpy               1.21.2
+packaging           21.0
+pandas              1.3.3
+pandocfilters       1.4.3
+parso               0.8.2
+pickleshare         0.7.5
+Pillow              8.3.2
+pip                 21.0.1
+plotly              5.3.1
+prometheus-client   0.11.0
+prompt-toolkit      3.0.20
+pycparser           2.20
+Pygments            2.10.0
+pyparsing           2.4.7
+pyrsistent          0.17.3
+python-dateutil     2.8.2
+pytz                2021.3
+pywin32             228
+pywinpty            0.5.7
+pyzmq               22.2.1
+scikit-learn        1.0
+scipy               1.7.1
+seaborn             0.11.2
+Send2Trash          1.8.0
+setuptools          58.0.4
+six                 1.16.0
+sklearn             0.0
+tenacity            8.0.1
+terminado           0.9.4
+testpath            0.5.0
+threadpoolctl       3.0.0
+tornado             6.1
+traitlets           5.1.0
+wcwidth             0.2.5
+webencodings        0.5.1
+wheel               0.37.0
+wincertstore        0.2
+wordcloud           1.8.1
+xgboost             1.4.2
+zipp                3.6.0
