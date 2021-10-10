@@ -48,5 +48,5 @@ def predict():
 
 if __name__ == "__main__":
     # Start Application
-    app.debug = True
+    # app.debug = True
     app.run()

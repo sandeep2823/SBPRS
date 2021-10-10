@@ -5,8 +5,12 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (sbprs)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="C:\Users\sandeep.singh\Desktop\Sandeep\Tutorials\randoms\UPGRAD\Course\11. Deployment and Capstone\SBPRS_try2\requirements.txt" />
+    <option name="versionSpecifier" value="Strong equality (==x.y.z)" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
