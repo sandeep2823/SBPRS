@@ -1,5 +1,9 @@
+from collections import defaultdict
+from collections import Counter
 import pandas as pd
 import time
+import csv
+from flask import request
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import numpy as np
@@ -26,7 +30,7 @@ word_vectorizer = TfidfVectorizer(
     analyzer='word',
     token_pattern=r'\w{1,}',
     stop_words='english',
-    ngram_range=(1, 3) )
+    ngram_range=(1, 3))
 word_vectorizer.fit(all_text)
 train_word_features = word_vectorizer.transform(all_text)
 
@@ -80,11 +84,28 @@ similarity
 df_user_product_final[df_user_product_final['reviews_username'] == 'jess'].index[0]
 
 
-def recommend(product):
-    index = df_user_product_final[df_user_product_final['reviews_username'] == product].index[0]
-    distances = sorted(list(enumerate(similarity[index])), reverse=True, key=lambda x: x[1])
-    for i in distances[1:6]:
-        print(df_user_product_final.loc[i[0], "name"])
+def recommend():
+    # index = df_user_product_final[df_user_product_final['reviews_username'] == product].index[0]
+    # distances = sorted(list(enumerate(similarity[index])), reverse=True, key=lambda x: x[1])
+    # for i in distances[1:6]:
+    #     print(df_user_product_final.loc[i[0], "name"])
+
+    user_product_map = defaultdict(list)
+    product_user_map = defaultdict(list)
+    with open('df_user_product.csv', 'r') as csvfile:
+        w = csv.reader(csvfile, delimiter=',')
+        for row in w:
+            user_product_map[row[0]].append(row[1])
+            product_user_map[row[1]].append(row[0])
+
+    def get_product_recommendation(user_product_map, product_user_map, u1):
+        biglist = []
+        for m in user_product_map[u1]:  # For the products a specific user likes
+            for u in product_user_map[m]:  # Getting other users who liked those products
+                biglist.extend(user_product_map[u])  # Finding the other products those "similar folks" most liked
+        return Counter(biglist).most_common(20)  # Returning tuples of (most common id, count)
+
+    pred = get_product_recommendation(user_product_map, product_user_map, "joshua")
 
 
-recommend('joshua')
+recommend()
